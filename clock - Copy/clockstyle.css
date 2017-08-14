@@ -1,0 +1,76 @@
+body {
+color:blue;
+}
+
+#jsalarmclock{
+font-family: Tahoma;
+font-weight: bold;
+font-size: 12px;
+}
+
+#jsalarmclock div{
+margin-bottom: 0.8em;
+}
+
+#jsalarmclock div.leftcolumn{
+float: left;
+width: 150px;
+font-size: 13px;
+clear: left;
+}
+
+#jsalarmclock span{
+margin-right: 5px;
+}
+
+.button_menu {
+  width: 100px;
+  height: 28px;
+  background-color: buttonface;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+  font-size:18px;
+}
+
+.select_menu {
+  width: 100px;
+  height: 28px;
+  background-color: buttonface;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: red;
+}
+
+.text_menu {
+ width: 400px;
+  height: 28px;
+  background-color: buttonface;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: blue;
+}
+
+@font-face {
+	font-family: 'LCDBOLD';
+	src: url('./LCDBOLD.eot');
+	src: local('LCDBOLD'), url('./LCDBOLD.woff') format('woff'), url('./LCDBOLD.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_523">Text with this font applied</p> */
+.fontsforweb_fontid_523 {
+	font-family: 'LCDBOLD' !important;
+}
+
+.lcdfont{
+	font-family: 'LCDBOLD';
+	font-size: 50px;
+}
+
+@keyframes blink {
+to { color: red; }
+}
+
+.blinking {
+color: blue;
+animation: blink 1s steps(2, start) infinite;
+}
